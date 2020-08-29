@@ -1,0 +1,116 @@
+body {
+  background-color: rgb(52, 51, 51);
+}
+
+.App h2{
+  color: #fff;
+}
+.App h4{
+  color: rgb(222, 222, 222);
+}
+.App p{
+  color: rgb(196, 196, 196);
+}
+
+.App {
+  text-align: center;
+}
+
+.App img {
+  width: 100px;
+  height: 100px;
+}
+
+.app__form {
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: #eae8e8;
+  width: 90%;
+  margin: 20px;
+  border-radius: 50px;
+}
+
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.app__input {
+  flex: 1;
+}
+
+.app__iconButton {
+  flex: 0;
+}
+
+/* .author {
+  position: fixed;
+  bottom: -00;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+} */
+
+@media (max-width: 320px) {
+  .MuiCardContent-root {
+    padding: 5px 16px !important;
+  }
+  .message {
+    padding: 10px;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .app__form {
+    padding: 14px !important;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: #eae8e8;
+    width: 77% !important;
+    margin: 18px;
+    border-radius: 26px;
+  }
+}
+
+@media (max-width: 340px) {
+  .app__form {
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: #eae8e8;
+    width: 75%;
+    margin: 20px;
+    border-radius: 26px;
+  }
+}
+
+@media (max-width: 700px) {
+  .app__form {
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: #eae8e8;
+    width: 89%;
+    margin: 20px;
+    border-radius: 26px;
+  }
+}
+@media (max-width: 500px) {
+  .app__form {
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: #eae8e8;
+    width: 83%;
+    margin: 20px;
+    border-radius: 26px;
+  }
+}
